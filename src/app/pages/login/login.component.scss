@@ -1,0 +1,15 @@
+@import 'variables.scss';
+
+:host {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: $background;
+}
+
+.logo-login {
+  height: 147px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(4deg) brightness(106%) contrast(101%);
+}
+
+
